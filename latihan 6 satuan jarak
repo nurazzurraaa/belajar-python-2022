@@ -1,0 +1,14 @@
+# Program Konversi Satuan Jarak
+
+print("\nProgram Konversi Satuan Jarak\n")
+# ft --> inci, yard, mile, km
+feet = float(input('Masukkan Satuan Jarak (dalam ft) :'))
+print("Jaraknya adalah", feet, "ft")
+inci = (12 * feet)
+yard = (0.333333 * feet)
+mile = (0.000189394 * feet)
+km = (0.0003048 * feet)
+print("Dalam Inci Satuan Jarak adalah :", inci, "inch")
+print("Dalam Inci Satuan Jarak adalah :", yard, "yard")
+print("Dalam Inci Satuan Jarak adalah :", mile, "mile")
+print("Dalam Inci Satuan Jarak adalah :", km, "km")
