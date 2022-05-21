@@ -1,0 +1,16 @@
+# Program Untuk menghitung satuan tekanan
+
+# Dalam satuan tekanan, kPa, mmHg, psi, atm
+
+print("\nProgram Untuk Menghitung Satuan Tekanan\n")
+
+# kPa --> mmHg, psi, atm
+
+kPa = float(input("Masukkan nilai satuan tekanan (dalam kPa) :"))
+print("Tekanannya adalah :")
+mmHg = (7.50062 * kPa)
+psi = (0.145038 * kPa)
+atm = (0.00986923 * kPa)
+print("Jadi nilai satuan tekanan adalah :", mmHg, "mmHg")
+print("Jadi nilai satuan tekanan adalah :", psi, "psi")
+print("Jadi nilai satuan tekanan adalah :", atm, "atm")
